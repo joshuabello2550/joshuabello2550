@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @joshuabello2550
+- 👀 I’m interested in coding solutions to current issues and designing cool projects
+- 🌱 I’m currently learning machine learning with sklearn
+- 📫 You can reach me through email @ joshuabello2550@gmail.com
