@@ -1,0 +1,99 @@
+﻿/*CSS for the Potentia Page*/
+/*Makes all the elements include padding and margins in the set width*/
+* {
+    box-sizing: border-box;
+}
+/***********************************************************************************************************************************************************************/
+/*Affects the title for the page*/
+.main_body_potentia h1 {
+    font-size: 60px;
+    color: #19afe6;
+    text-align: center;
+    margin: 0px
+}
+/*Affects the sub-heading below the title that shows the contributors to hte product*/
+#authors {
+    text-align: center;
+}
+/*Affects each header for each aspect of the solution*/
+h2 {
+    font-size: 45px;
+    color: #19afe6;
+    margin: 0px;
+    display: block;
+}
+/*Affects each header for each aspect of the solution*/
+.h2 title{
+margin-top: 25px;
+}
+/*Affects each header for each aspect of the solution*/
+.title {
+    margin-top: 25px;
+}
+/*Affects all of both the list and p tags*/
+.main_body_potentia p, li{
+    font-family: proxima_nova_rgregular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}/*Affect all the list body tags only*/
+.main_body_potentia ul{
+    margin: 10px 0px;
+}
+/*affects the single column color-profile images*/
+.Container {
+    display: flex;
+    flex: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+/*Affects the image of the Business Ideation Document*/
+.Container img {
+    width: 100%;
+}
+/*Affects the link tags all the link tags*/
+.Container a {
+    font-family: proxima_nova_rgregular;
+    font-size: 14px;
+    color: blue;
+    font-weight: 700;
+}
+/***********************************************************************************************************************************************************************/
+/*Affects each column of images for Brainstorming*/
+.Brainstorming_container_column{
+    flex: 50%;
+    width: 50%;
+    padding: 4px;
+}
+/*Changes the layout of the image and text if the width of the page shrinks*/
+@media only screen and (max-width: 1400px) {
+    .Brainstorming_container_column{
+        flex: 100%;
+        width: 100%;
+    }
+}
+/*Need to fix this and make this work!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+@media only screen and (max-width: 1400px) {
+    #Brainstorming_container_image {
+        width: 50%;
+    }
+    .Brainstorming_container img {
+        width: 50%;
+    }
+}
+/*Is the id tag for the Brainstorming contianer column that has an image*/
+#Brainstorming_container_image {
+    text-align: center;
+}
+/***********************************************************************************************************************************************************************/
+/*Affects each column of images for Interview*/
+.Interview_images_container_column{
+    text-align: center;
+    width: 33%;
+    flex: 33%;
+}
+/*Sets the height of all hte images inside Interview to be the same*/
+.Interview_images_container_column img{
+    height: 95%;
+}
+/***********************************************************************************************************************************************************************/

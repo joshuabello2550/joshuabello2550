@@ -1,0 +1,51 @@
+﻿/*About Me CSS*/
+
+/*Affects the main-body  with a h1 tag*/
+.main_body h1 {
+     font-size: 45px;
+     margin-bottom: 0px;
+     color: #19afe6;
+}
+/*Affects the main-body that have a class of Title (all of them have a h2 tag*/
+.Title {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    display: block;
+    clear: left;
+}
+/*Affects the main-body  with a h2 tag*/
+.main_body h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+/*Affects the main-body  with a h2 tag*/
+.main_body h3 {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Affects just the style for hte h2 header known as Track*/
+#Track_title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*Affects all the a link tags that are displaced in the track section*/
+.Track_body a {
+    font-size: 14px;
+    font-family: 'proxima_nova_rgregular';
+    color: blue;
+}
+/*Affects all the images that are displaced in the track section*/
+.Track_images {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*Affects all the images that are in the cookign section*/
+.Cooking_images {
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}

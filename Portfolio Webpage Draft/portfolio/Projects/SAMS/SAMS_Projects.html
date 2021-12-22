@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<!--
+    This is the Projects page of my website
+-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>SAMS Projects</title>
+    <!--Link the CSS page to the HTML Page-->
+    <link href="../../../generalCSS.css" rel="stylesheet" type="text/css" />
+    <!--Link the specific CSS page for the Projects-->
+    <link href="SAMS_ProjectsCSS.css" rel="stylesheet" type="text/css" />
+    <!--Adds a font family to the CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="../../CustomFonts/Customfonts.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="body">
+    <!--Creates a menu bar with the selections About, Projects, Drawings-->
+    <div class="menu-bar">
+        <!--Sets the title of the webpage-->
+        <h1 class="title">Joshua Bello</h1>
+        <ul class="menu-topics">
+            <li><a href="../../../index.html">Home</a></li>
+            <li><a href="../../aboutme.html">About Me</a></li>
+            <li><a href="../../projects.html">Projects</a></li>
+            <li><a href="../../drawings.html">Drawings</a></li>
+            <li><a href="../../photos.html">Photos</a></li>
+        </ul>
+    </div>
+    <div class="main_body">
+        <div class="main_body_projects">
+            <!--Resume Project-->
+            <div class="SAMS_Projects_container">
+                <h1>Resume </h1>
+                <!--Information about the Project-->
+                <p>
+                    This was our first project for the course and an introduction to Web Design with HTML and CSS.
+                    Our goal was to recreate a fake resume that was on Andrew Carnegie. I mainly used CSS to style
+                    the webpage.
+                </p>
+                <!--Image displayed-->
+                <div class="image_container">
+                    <img class="SAMS_Projects_image" id="Resume" src="Resume.png" /><br />
+                    <a href="Webpages/resume/index.html" target="_blank">Link to Webpage </a>
+                </div>
+            </div>
+            <!--SAMS-tagram Project-->
+            <div class="SAMS_Projects_container">
+                <h1>SAMS-tagram 1.0</h1>
+                <!--Information about the Project-->
+                <p>
+                    Another one of our projects was SAMS-tagarm where we created different boxes that looked like they
+                    were a post from a social media site. The most difficult aspect of this assignment was creating
+                    a blank div that had no elements within it but still displayed on the page.
+                </p>
+                <!--Image displayed-->
+                <div class="image_container">
+                    <img class="SAMS_Projects_image" id="SAMS-tagram1.0" src="SAMS-tagram1.0.png" /><br />
+                    <a href="Webpages/samstagram/index.html" target="_blank">Link to Webpage </a>
+                </div>
+            </div>
+            <div class="SAMS_Projects_container">
+                <h1>SAMS-tagram 2.0</h1>
+                <!--Information about the Project-->
+                <p>
+                    We later improved on the on SAMS-tagram 1.0 by adding the ability for you to add and delete different
+                    post using JAVAscript. You could add different images by inserting an image URL and typing a caption
+                    that would be placed beneath the inserted image. If the caption overflowed the Post, the text would
+                    wrap inside the div and you could scroll down to see more of the text.
+                </p>
+                <p>
+                    We also linked a Profile page to the home page where it
+                    displayed information about Andrew Carnegie. Below the original text was a form where you could input
+                    new information that would replace the original one. However, whenever you reloaded the page the
+                    inputed information was not saved. Another issue was that when you did not input any information into
+                    the form it set the bio information to blank.
+                </p>
+                <!--Image displayed-->
+                <div class="image_container">
+                    <img class="SAMS_Projects_image" id="SAMS-tagram2.0" src="SAMS-tagram2.0_empty_post.png" /><br />
+                    <a href="Webpages/samstagram_2/index.html" target="_blank">Link to Webpage </a>
+                </div>
+            </div>
+            <div class="SAMS_Projects_container">
+                <h1>SAMS-tagram 3.0</h1>
+                <!--Information about the Project-->
+                <p>
+                    For SAMS-tagram 3.0 we connected both HTML pages to Google Firebase. For the News Feed I used a similar
+                    design as the TODO List by creating a new collection cost Post saving the input values into unique and
+                    computer-generated documents. To delete a post I just got the doc id from the database and deleted the
+                    particular document and removed it from the HTML page. When you reload the page the earlier posts display
+                    using query Snapshots to get each document from the collection and add the values to the Post div.
+                </p>
+                <p>
+                    The profile page used a different design because I named the document amin_profile and each type you input
+                    text into the form it would set the values of main_profile to be the input value. This method was needed
+                    because I wasn't creating a new document each time I type in the text but rather calling upon one document
+                    and changing the information. Also when I reload the page I couldn't have multiple documents display
+                    but I just needed the information in that one document to be displayed.
+                </p>
+                <!--Image displayed-->
+                <div class="multiple_image_container">
+                    <div class="image_container">
+                        <img class="SAMS_Projects_image" id="SAMS-tagram3.0" src="SAMS-tagram3.0.png" />
+                    </div>
+                    <div class="image_container">
+                        <img class="SAMS_Projects_image" id="SAMS-tagram3.0" src="SAMS-tagram3.0_Firebase.png" />
+                    </div>
+                    <a href="Webpages/samstagram_3/index.html" target="_blank">Link to Webpage </a>
+                </div>
+            </div>
+            <!--Moodboard Project-->
+            <div class="SAMS_Projects_container">
+                <h1>Moodboard</h1>
+                <!--Information about the Project-->
+                <p>
+                    Moodboard was an assignment based mainly on Javascript. Whenever you input an image URL it would
+                    display it on the screen. When you got to the edge of the page it would wrap around and start a new
+                    line with the images.
+                </p>
+                <!--Image displayed-->
+                <div class="image_container">
+                    <img class="SAMS_Projects_image" id="Moodboard" src="Moodboard.png" /><br />
+                    <a href="Webpages/moodboard/index.html" target="_blank">Link to Webpage </a>
+                </div>
+            </div>
+            <!--Typing Coach Project-->
+            <div class="SAMS_Projects_container">
+                <h1>Typing Coach</h1>
+                <!--Information about the Project-->
+                <p>
+                    This was our first basic game using JAVAscript, HTML and a little CSS. Within the JAVAscript file
+                    you had an array with a list of 20 words. Every 3 seconds a random word would be selected and
+                    displayed on the page at a random location. At the top of the page, you had a form where you could
+                    type the words that were displayed on the page. By using an if statement we were able to cross-reference
+                    whether the typed value matched any of the values displayed on the page and if it was true
+                    the word was removed. The objective of the game was to constantly keep the page clear of any words.
+                    One issue I faced was that the words would sometimes display outside the viewable screen
+                    and you would have to scroll either down or to the right to see the word.
+                </p>
+                <!--Image displayed-->
+                <div class="image_container">
+                    <img class="SAMS_Projects_image" id="Typing-game" src="Typing_game.png" /><br />
+                    <a href="Webpages/typing_game/index.html" target="_blank">Link to Webpage </a>
+                </div>
+            </div>
+            <!--TODO-List Project-->
+            <div class="SAMS_Projects_container">
+                <h1>TODO List 1.0</h1>
+                <!--Information about the Project-->
+                <p>
+                    For this assignment, we used JAVAScript to create a form and CSS to make it look like a Post-it note.
+                    I then added the ability to type text into the Post-it note and when you clicked enter it would display
+                    the Post-it note with the written text in rows below the form. You could add multiple Post-it notes
+                    and when you clicked on a Post-it note it would delete it.
+                </p>
+                <!--Image displayed-->
+                <div class="image_container">
+                    <img class="SAMS_Projects_image" id="TODO-List" src="TODO-List.png" /><br />
+                    <a href="Webpages/TODO_starter/index.html" target="_blank">Link to Webpage </a>
+                </div>
+            </div>
+            <!--TODO-List 2.0 Project-->
+            <div class="SAMS_Projects_container">
+                <h1>TODO List 2.0 </h1>
+                <!--Information about the Project-->
+                <p>
+                    This was our first introduction to back-end development. We improved on TODO List by connecting the javascript
+                    to Google firebase. We then created a collection called notes and each time you saved a sticky note to the
+                    page it would save the input value to the collection under a random and unique document name. If you wanted to
+                    delete a post we add an event Listener that would delete the post form the screen but also remove it from the
+                    database using the unique id. Initially, when you reloaded the page it did not save the post but when I
+                    included the document ready function I was able to get each document that had been typed in the collection and
+                    display it on the page
+                </p>
+                <!--Image displayed-->
+                <div class="multiple_image_container">
+                    <div class="image_container">
+                        <img class="SAMS_Projects_image" id="TODO-List" src="TODO-List2.0.png" />
+                    </div>
+                    <div class="image_container">
+                        <img class="SAMS_Projects_image" id="TODO-List" src="TODO-List2.0_Firebase.png" />
+                    </div>
+                    <a href="Webpages/TODO_starter2.0/TODO_2_starter/index.html" target="_blank">Link to Webpage </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿/*CSS for the homepage*/
+
+/*Background image for the homepage*/
+.Home {
+    height: 100vh;
+}
+/*Background image for the homepage*/
+.Home_background {
+    background-image: url("Home_background.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+/*Creates a contianer that holds a quote that inpspires me*/
+.Quote_container {
+    position: center;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 150%;
+    color: black;
+    margin-top: 10%;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 10%;
+}
+/*Changes teh color of the author of the quote to blue*/
+#Quote_author {
+    color: #19afe6;
+}

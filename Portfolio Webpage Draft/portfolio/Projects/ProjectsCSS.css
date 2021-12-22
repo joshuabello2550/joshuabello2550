@@ -1,0 +1,23 @@
+﻿/*CSS for the project.html page*/
+
+/*Affect the div contianer whihc hold the image and the caption below*/
+.main_body_projects {
+    margin-top: 40px;
+    text-align: center;
+}
+/*Affect the div contianer whihc hold the image and the caption below*/
+.Projects_container {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+/*Affect the link aspect of the div contianer*/
+.Projects_container a {
+    text-decoration: none;
+    color: black;
+}
+/*Affects all images that have the class of Projects_image*/
+.Projects_image {
+    width: 350px;
+    height: 350px;
+}

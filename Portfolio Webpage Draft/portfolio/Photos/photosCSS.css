@@ -1,0 +1,40 @@
+﻿/*The CSS for the photos part of my webpage*/
+
+/*makes all the elements include adding and margin inside the width*/
+* {
+    box-sizing: border-box;
+}
+/*Affect the div container whihc houses all the other 
+    individual divs for the images adn captions*/
+.main_body_Photos {
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Affect the div container whihc houses all the other 
+    individual divs for the images adn captions*/
+.main_body_Photos_column {
+    flex: 50%;
+    width: 50%;
+    padding: 22.5px;
+}
+@media only screen and (max-width: 800px) {
+    .main_body_Photos_column {
+        flex: 100%;
+        width: 100%;
+    }
+}
+/*Affects the div container for each individual image with its caption*/
+.Photos_caption_container {
+    vertical-align: text-top;
+    padding-bottom: 25px;
+    text-align: center;
+}
+/*Affects image within the each container*/
+.Photos_caption_container img{
+     width: 100%;
+}
+/*Affects image within the each container*/
+.Photos_caption_container p{
+     padding-top: 3px;
+}

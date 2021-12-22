@@ -1,0 +1,36 @@
+﻿/*CSS for the the drawings page*/
+/*Makes sure the width and height includes paddings and margins*/
+* {
+    box-sizing: border-box;
+}
+/*Affects the big, overall main body for the drawings*/
+.main_body_drawings {
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*Affects each column for all the images*/
+.main_body_drawings_column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 7.5px;
+}
+@media only screen and (max-width: 400px) {
+    .main_body_drawings_column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+/*Affects the container for each image*/
+.Drawings_container {
+    margin-bottom: 15px;
+}
+/*Affects the p tags that are within the drawings container*/
+.Drawings_container p {
+    font-size: 12px;
+}
+/*Affects all the individual drawings container  which include the image and teh caption*/
+.Drawings_container img {
+    width: 100%;
+}

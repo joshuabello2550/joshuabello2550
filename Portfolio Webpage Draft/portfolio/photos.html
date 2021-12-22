@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<!--
+    This is the Photos page of my website
+-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Photos</title>
+    <!--Link the CSS page to the general HTML Page-->
+    <link href="../generalCSS.css" rel="stylesheet" type="text/css" />
+    <!--Link the CSS page to thespecific CSS file for the photos HTML Page-->
+    <link href="Photos/photosCSS.css" rel="stylesheet" type="text/css" />
+    <!--Adds a font family to the CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="CustomFonts\Customfonts.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="body">
+    <!--Creates a menu bar with the selections About, Projects, Drawings-->
+    <div class="menu-bar">
+        <!--Sets the title of the webpage-->
+        <h1 class="title">Joshua Bello</h1>
+            <ul class="menu-topics">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="drawings.html">Drawings</a></li>
+                <li><a href="photos.html">Photos</a></li>
+            </ul>
+    </div>
+    <!--Is a div container for all the different images I have take over the years-->
+    <div class="main_body">
+        <div class="main_body_Photos">
+            <div class="main_body_Photos_column">
+                <!--Is an image of a group of black singers within the LBJ Library-->
+                <div class="Photos_caption_container">
+                    <img id="black_group_image" src="Photos/blackgroup.jpg" />
+                    <p>Black History within Lyndon B. Johnson Library and Museum</p>
+                </div>
+                <!--Is an image of of the back part of the replica of LBJ oval office-->
+                <div class="Photos_caption_container">
+                    <img id="back_oval_office_image" src="Photos/backwhiteH.jpg" />
+                    <p>Replica of Lyndon B. Johnson oval office </p>
+                </div>
+            </div>
+            <div class="main_body_Photos_column">
+                 <!--Is an image of of the front part of the replica of LBJ oval office-->
+                 <div class="Photos_caption_container">
+                     <img id="front_oval_office_image" src="Photos/frontwhiteH.jpg" />
+                     <p>Replica of Lyndon B. Johnson oval office </p>
+                 </div>
+                 <!--Is an image of of the LBJ limousine-->
+                 <div class="Photos_caption_container">
+                     <img id="Limousine_image" src="Photos/Limousine.jpg" />
+                     <p>Lyndon B. Johnson Limousine</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* Your Code Here! */
+/*Creates a wooden background image*/
+body {
+        margin: 0px;
+        background-image: url("https://images.unsplash.com/photo-1510148199876-8a856ee41d42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80")
+    }
+/*Exapnds the form to the entire width of the page */
+#form1 {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    /*Creates a yellow sticky note as the form*/
+    #form1 input[type=text] {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+        width: 200px;
+        height: 160px;
+        padding: 6px 6px;
+        box-sizing: border-box;
+        border-top: 40px solid #FFFF88;
+        background-color: #FFFFA8;
+        text-align: center;
+    }
+    /*Removes the blue outline when the form is selected*/
+    #form1 input[type=text]:focus {
+        outline: none;
+    }
+/*Creates a container to display the text*/
+#container {
+    margin: 20px;
+}
+    .todo_card {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+        width: 200px;
+        height: 160px;
+        padding: 10px;
+        border-top: 40px solid #FFFF88;
+        background-color: #FFFFA8;
+        display: inline-block;
+        margin: 20px 20px 0px 0px;
+    }

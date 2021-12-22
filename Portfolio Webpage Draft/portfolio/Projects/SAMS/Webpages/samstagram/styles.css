@@ -1,0 +1,44 @@
+/*Applies CSS to the entire webpage*/
+body {
+    background: gray;
+    font-family: Arial;
+    margin: 0px;
+}
+/*Affects just the header of the webpage*/
+.header {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+/*Affects the title SAMA-tagram*/
+#title {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* affects the body or information below the header*/
+.container {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+/*Defines the dimensions of a box*/
+.top-box{
+    height: 110px;
+    background-color: white;
+}
+/*Defines the color of multiple small boxes*/
+.boxes{
+    background-color: lightgray;
+    margin-top: 62px;
+    padding: 5px;
+    padding-left: 10px;
+    height: 90px;
+}
+p {
+    margin-top: 12px;
+}
+/*Makes certain text blue*/
+.bluetext {
+    color: blue; 
+}

@@ -1,0 +1,98 @@
+/* Your Code Here! */
+/*Both: Sets 0px margins for the entire webpage*/
+.body {
+    margin: 0px;
+    background-color: gray;
+    font-family: Arial;
+}
+/* Both: Creates the background of the headers and makes the content within flexible*/
+.header {
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+/*Both: Attributes for the link that is connected to the SAMS-tagram*/
+.link_title {
+    text-decoration: none;
+}
+/*Both: Creates the stying for the title SAMS-tagram*/
+#title {
+    color: white;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 40px;
+    margin: 0px;
+}
+/*Both: Creates another flex container and shifs everything ot the end*/
+#Sidebar {
+    position: absolute;
+    right: 15px;
+    text-transform: none;
+    text-decoration: underline;
+}
+/*Both: Attributes for the white container at the middle of the page*/
+.container {
+    background-color: white;
+    margin: 50px;
+    padding: 25px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-weight:500;
+}
+/*Index.html: Attribues for the class:container_title for the index html */
+.container_title{
+    margin-top: 30px;
+}
+/*Profile.html: Attributes for all the section titles 
+    that are above each paragraph or image*/
+.section_title {
+    font-weight: bold;
+}
+/*Profile.html: Attributes for the Photo*/
+#Photo {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+/*Profile.html: Forces all the images inouted into the 
+    Image Url to be a certain height/width*/
+#photoText {
+    height: 300px;
+    width: 300px;
+}
+/*Profile.html: Adds spacing to the inout tags*/
+.profileHtmlInputs {
+    margin-bottom: 3px;
+}
+/*Index.html: Attributes for the label tags for the inputs index html*/
+.indexHtmlInputsTitle {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+/*Index.html: Attributes for the input tags for the index html*/
+.indexHtmlInputs {
+    margin-top:3px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+/*Index.html: Attributes for the specific Caption input 
+    tag for the index html*/
+.Caption {
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+/*Index.html: Attributes for the submit tags for the index html*/
+.Submit {
+    padding: 2px 10px; 
+    background-color: lightgray;
+    border: 0px;
+    border-radius: 5px;
+}
+/*Attributes for the blank container at the bottom of the page where you can put the post*/
+#container_bottom {
+    margin: 50px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: flex-start;    
+}

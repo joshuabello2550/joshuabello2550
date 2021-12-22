@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAMStagram 2.0</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="profile.html" />
+    <!--Adds jQuery features to the HTML-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body class="body">
+    <!--Creates a balck header with the title and a
+        menu option to the far right that is Profile-->
+    <div class="header">
+        <a href="index.html" class="link_title"><h1 id="title">SAMS-tagram</h1></a>
+        <a href="profile.html"><p id="Sidebar">Profile</p></a>
+    </div>
+    <!--Creates the body of the information to add the image url and caption-->
+    <div class="container">
+        <h2 class="container_title">New Post!</h2>
+        <!--Creates a new form in order to add image Url and captions to post-->
+        <form id="Post">
+            <!--Creates a new inout that allow to add an image for your New post-->
+            <label class="indexHtmlInputsTitle" for="">Image Url</label><br />
+            <input class="indexHtmlInputs" id="ImageUrl" type="text" /><br />
+            <!--Creates a new input that allows you to add a caption for you post-->
+            <label class="indexHtmlInputsTitle" for="">Caption</label><br />
+            <input class="indexHtmlInputs Caption" id="Caption" type="text" /><br />
+            <!--Submit button-->
+            <input class="Submit" type="Submit" value="Post" /><br />
+        </form>
+    </div>
+    <!--Creates a empty container that will display the different post-->
+    <div id="container_bottom">
+
+    </div>
+
+    <!-- Adds javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+    <script src="index.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

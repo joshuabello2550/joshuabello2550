@@ -1,0 +1,24 @@
+/*Applies a font to the entire html page*/
+body {
+    font-family: Arial;
+    margin: 0px;
+}
+/*Customizes the header with styles*/
+.header {
+    text-align: center;
+    background-color: lightgray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/*removes the margin for the title header*/
+#title {
+    margin-top: 0px;
+/*Applies a margin to the top of the header Summary */
+}#Summary{
+     margin-top: 15px;
+ }
+/* Place margins of 10% on either side of the body*/
+.container {
+    margin-right: 10%;
+    margin-left: 10%;
+}

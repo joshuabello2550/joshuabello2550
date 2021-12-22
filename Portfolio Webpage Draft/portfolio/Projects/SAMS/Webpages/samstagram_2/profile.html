@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <!--Adds jQuery features to the HTML-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    </head>
+    <body class="body">
+        <!--Creates a balck header with the title and a
+        menu option to the far right that is Profile-->
+        <div class="header">
+            <a href="index.html" class="link_title"><h1 id="title">SAMS-tagram</h1></a>
+            <a href="index.html"><p id="Sidebar">News Feed</p></a>
+        </div>
+
+        <!--Houses the body of the information-->
+        <div class="container">
+            <!--Creates the section for the Name-->
+            <p class="section_title" id="Name">Name</p>
+            <p id="nameText">Andrew Carnegie</p>
+            <!--Creates the section for a Photo-->
+            <p class="section_title" id="Photo">Photo</p>
+            <img id="photoText" src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNTc1NTc2MDc3/andrew-carnegie-9238756-1-402.jpg" />
+            <!--Creates the section for the Bio-->
+            <p class="section_title" id="Bio">Bio</p>
+            <p id="bioText">
+                I'm a Scotish-American industrialist, business magnate, and philanthropist. 
+                I led the expansion of the American steel industry in the late 19th century 
+                and became one of the richest Americans in history. I also became a leading 
+                philanthropist in the United States and in the British Empire. During the 
+                last 18 years of his life, I gave away about $350 million to charities, 
+                foundations, and universities - almost 90 percent of his fortune. My 1889 
+                article proclaiming "The Gospel of Wealth" called on the rich to use their 
+                wealth to improve socety, and stimulated a wave of philanthropy
+            </p>
+            <!--Allows you to edit the current Name, Photo, and Bio-->
+            <h1 class="Edit">Edit Pofile</h1>
+            <form id="Edit">
+                <!--Name-->
+                <label for="Name">Name</label>
+                <input type="text" class="profileHtmlInputs" id="Name_text" name="name" /><br />
+                <!--Image_Url-->
+                <label for="ImageUrl">Image Url</label>
+                <input type="text" class="profileHtmlInputs" id="Image_Url_text"/><br />
+                <!--Bio-->
+                <label for="Bio">Bio</label>
+                <input type="text" class="profileHtmlInputs" id="Bio_text"/><br />
+
+                <input type="Submit" value="Save" />
+            </form>
+           
+        </div>
+        <!-- Your Code Here -->
+        <script src="profile.js"></script>
+    </body>
+</html>
