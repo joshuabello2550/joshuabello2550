@@ -1,0 +1,65 @@
+﻿/*CSS for the Homepage*/
+
+/*Includes padding and margins in the width and height*/
+* {
+    box-sizing: border-box
+}
+.Home_background_container {
+    height: 100vh;
+    position: relative
+}
+.Home_background_img {
+    background-image: url('Homepage_background.jpg');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .85;
+    height: 100%;
+}
+/*Centers the logo on the Homepage*/
+.Logo_container {
+    display: flex;
+    justify-content: center;
+}
+/*Logo for the homepage*/
+.Logo {
+    width: 350px;
+    position: absolute;
+    top: 125px;
+    border-radius: 50%;
+    opacity: 1;
+}
+/*Affects the individual div for About Us and Contact*/
+.Information {
+    margin-bottom: 50px;
+}
+/*Affects the title for About Us and Contact*/
+.Information_title{
+    margin: 10px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    color: darkred;
+    padding-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+/*Affects the p tags within teh div About Us*/
+.About_Us_content {
+    text-align: center;
+}
+/*Affects the div that has all the contact info*/
+.Contact_Info_content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center
+}
+/*Affects each persons div with their contact information */
+.container {
+    margin: 0px 20px;
+    display: inline-block;
+}
+/*Affects the container whihc has the daily tips and tricsk for college*/
+#Daily_Tips_for_College {
+    background-color: lightgray;
+    padding: 10px 30px
+}
