@@ -1,0 +1,142 @@
+﻿<!--Homepage html-->
+<!DOCTYPE html>
+
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!--Adds mobile responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Potentia Homepage</title>
+    <!--Puts a icon on the side when you open a new tab-->
+    <link rel="shortcut icon" type="image/png" href="Favicon/Logo.png" />
+    <!--Links the General CSS to the Homepage-->
+    <link href="GeneralCSS.css" rel="stylesheet" type="text/css" />
+    <!--Links the specific home page css to the homepagek-->
+    <link href="Homepage/Potentia_HomepageCSS.css" rel="stylesheet" type="text/css" />
+    <!--Adds a font family-->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Grenze&display=swap" rel="stylesheet">
+    <!--Adds ads gorm google ads-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-4589527318049635",
+            enable_page_level_ads: true
+        });
+    </script>
+    <!--Connects jquery to the html-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Adds more characters that can be displayed on a page-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+
+    <!--Creates a header with the POTENTIA title-->
+    <div class="title">
+        <a href="index.html">
+            <img class="Top_Logo" src="Favicon/Top_Logo.png" />POTENTIA
+        </a>
+        <!--The Translate button-->
+        <div class="translate">
+            <p>Translate:</p>
+            <div id="google_translate_element"></div>
+        </div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+    <!--Creates a header with all the different menu-topics-->
+    <div class="menu_container_overall">
+        <div class="menu_container">
+            <div class="menu_item">
+                <h1><a href="Finance/Finance.html">finance</a></h1>
+            </div>
+            <div class="menu_item">
+                <h1><a href="Standardized_Testing/Standardized_Testing.html">standardized testing</a></h1>
+            </div>
+            <div class="menu_item">
+                <h1><a href="Collegeboard/Collegeboard.html">college Board</a></h1>
+            </div>
+            <div class="menu_item">
+                <h1><a href="College_Applications/College_Applications.html">college applications</a></h1>
+            </div>
+            <div class="menu_item">
+                <h1><a href="Forum/Forum.html">forum</a></h1>
+            </div>
+            <div class="menu_item">
+                <h1><a href="Resources/Resources.html">resources</a></h1>
+            </div>
+            <div class="menu_item">
+                <h1><a href="#">donate</a></h1>
+            </div>
+        </div>
+        <!--Link on the side that leads back home-->
+        <h3 class="Home"><a id="Home" href="index.html">Home</a></h3>
+    </div>
+    <!--Line at the top of the page-->
+    <div class="line"></div>
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <div class="Home_background_container">
+        <div class="Home_background_img"></div>
+        <div class="Logo_container">
+            <img class="Logo" src="Homepage/Logo.png" />
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------------------->
+    <div class="main_body">
+        <div class="main_body_homepage_container">
+            <!--About US-->
+            <div class="Information">
+                <h4 class="Information_title">About Us</h4>
+                <p class="About_Us_content">
+                    Potentia is a website designed to allow students to reach their full potential. When it comes
+                    to college application many students regret missed opportunities and a lack of information that
+                    later cost them thousands of dollars in college tuition. Potentia allows you to have all the
+                    necessary information to succeed in college, right at your fingertips. Need information on the
+                    SAT, check our standardized testing. Need information on FASFA, check the page on Financial Aid.
+                    All the tricks and hack to game the college system we provide for you. Potentia, reach your full
+                    potential.
+                </p>
+            </div>
+            <!--Daily Tips and Tricks-->
+            <div class=" Information" id="Daily_Tips_for_College">
+                <h4 class="Information_title">Daily Tips For College</h4>
+                <div id="Tips_container">
+                    <div id="Tip1_container"></div>
+                    <div id="Tip2_container"></div>
+                    <div id="Tip3_container"></div>
+                </div>
+            </div>
+            <div class="Information">
+                <!--Contact Info-->
+                <h4 class="Information_title">Contact</h4>
+                <div class="Contact_Info_content">
+                    <div class="container">
+                        <p>Joshua Bello</p>
+                        <p><b>Email: </b><a href="mailto:joshuabello2550@gmail.com?Subject=Contact%20Potentia%20Services">joshuabello2550@gmail.com</a><b> Phone Number:</b> (832)800-0470</p>
+                    </div>
+                    <div class="container">
+                        <p>Madison Dabney</p>
+                        <p><b>Email: </b><a href="mailto:Mdabney@andrew.cmu.edu?Subject=Contact%20Potentia%20Services">Mdabney@andrew.cmu.edu</a><b> Phone Number:</b> (704)593-9747</p>
+                    </div>
+                    <div class="container">
+                        <p>Angelica Sanchez </p>
+                        <p><b>Email: </b><a href="mailto:angelicasanchezdiaz127@gmail.com?Subject=Contact%20Potentia%20Services">angelicasanchezdiaz12@gmail.com</a><b> Phone Number:</b> (201)725-5911</p>
+                    </div>
+                    <div class="container">
+                        <p>Jalal Gibson</p>
+                        <p><b>Email: </b><a href="mailto:jalal.gibson7@gmail.com?Subject=Contact%20Potentia%20Services">jalal.gibson7@gmail.com</a><b> Phone Number:</b> (504)295-6049</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Connects the specific JavaScript for the Homepage-->
+    <script src="Homepage/Potentia_HomepageJS.js"></script>
+</body>
+</html>
