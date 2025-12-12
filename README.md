@@ -5,7 +5,7 @@ I’m interested in both AI research and building real-world applications. I’v
 ### About Me
 - MIT Class of 2025 (B.S in Computer Science), 2026 (M.Eng in Artificial Intelligence)
 
-### languages & tools
+### Languages & tools
 - Python (Numpy, Pytorch, Pandas)
 - C++
 - Java/Kotlin
