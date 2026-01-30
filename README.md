@@ -12,4 +12,4 @@ I’m interested in both AI research and building real-world applications. I’v
 - React
 
 ### Find me online
-🔗 LinkedIn: https://www.linkedin.com/in/joshua-bello
+🔗 LinkedIn: [https://www.linkedin.com/in/joshua-bello](https://www.linkedin.com/in/joshua-bello-411264174/)
